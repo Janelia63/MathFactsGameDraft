@@ -8,7 +8,7 @@ const option1 = document.getElementById("option1"),
 var answer = 0;
 
 function generate_equation(){ 
-  var num1 = Math.floor(Math.random() * 20),
+  let num1 = Math.floor(Math.random() * 20),
       num2 = Math.floor(Math.random() * 20),
       dummyAnswer1 = Math.floor(Math.random() * 20),
       dummyAnswer2 = Math.floor(Math.random() * 20),
